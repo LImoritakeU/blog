@@ -12,4 +12,5 @@ upload:
 
 build:
 	npm install
+	git clone https://github.com/SumiMakito/hexo-theme-typography themes/typography
 	cd themes/typography && npm install
