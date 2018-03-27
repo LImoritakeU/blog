@@ -9,15 +9,14 @@ categories:
   - python web
 date: 2018-03-26 14:22:00
 ---
-# Django Tutorial筆記
 
-對於毫無網頁開發概念的初學者：
+Django的許多概念，讓從一開始從flask入手python web的我有些難以適應，不過一旦習慣Django設計思想後，倒也逐漸感到樂趣，然而我不建議在完全沒有網頁開發基礎時，就學習Django，這讓我回想起小時後學網球的經驗，那些教練總是要求動作確實、姿勢標準，結果幾個月下來，幾乎都在學打「正確姿勢的網球」，連個球友都沒交到，毫無樂趣可言。
 
-在django官方t的part4，有這麼一句話：
+Django從一開始的"startproject"就預設了許多「最佳實踐」，註定它不是一個給毫無網頁概念的初學者入門的框架；反之，如果對web開發的ORM、routing、render template、auth...等稍有概念，曾經動手拼裝一個CRUD、LOGIN網站經驗的人，學習django框架可以幫助他學習在這款業界久經驗證的的企業級框架，如何快速組織與開發專案。
+
+在django官方tutorial的part4，有這麼一句話：
 
 > You should know basic math before you start using a calculator.
-
-從flask轉來使用django的我，建議完全沒有web開發經驗的人，先以flask上手，django很不錯，但是他從一開始的"startproject"就預設了許多「最佳實踐」，個人認為在完全沒有網頁開發概念時就學習最佳實踐，就好像叫一個完全不會水中換氣的旱鴨子學習最少時間水中換氣一樣，沒有太大的意義，反而有害學習，反之，如果對web開發的ORM、routing、render template、auth...等有一些概念，甚至有動手拼裝一個CRUD、LOGIN網站經驗的人，學習django框架可以幫助他學習在這款業界久經驗證的的企業級框架，如何快速組織與開發專案。
 
 我非常推薦先實作完《flask web開發》，接著摸摸Django框架。
 

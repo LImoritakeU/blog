@@ -1,4 +1,4 @@
-.PHONY: upload server clean
+.PHONY: upload server clean init
 
 clean:
 	hexo clean
@@ -8,9 +8,10 @@ server:
 	hexo server -d
 
 upload:
-	gsutil rsync -x "^.+.(html|xml|jpg|png)$\" -r ./public/ gs://www.limoritakeu.tech
+	gsutil rsync  -r ./public/ gs://www.limoritakeu.tech
+	# -x "^.+.(html|xml|jpg|png)$\"
 
-build:
+init:
 	npm install
 	git clone https://github.com/SumiMakito/hexo-theme-typography themes/typography
 	cd themes/typography && npm install

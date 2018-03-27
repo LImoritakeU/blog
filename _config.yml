@@ -39,7 +39,7 @@ future: true
 highlight:
   enable: true
   line_number: false
-  auto_detect: true
+  auto_detect: false
   tab_replace:
 
 # Home page setting
